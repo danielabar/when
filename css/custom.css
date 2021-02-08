@@ -1,0 +1,11 @@
+.read-text .read-left {
+  text-align: left;
+}
+
+.read-text .list-plain {
+  list-style-type: none;
+}
+
+.image-adjust .nudge {
+  margin-right: 50px;
+}

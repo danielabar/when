@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!-- Intro -->
+			<section>
+				<img data-src="images/book-cover.jpg" alt="book cover">
+				<aside class="notes">
+					<ul>
+						<li>I’d like to share some findings from a book I read recently When: The Scientific Secrets of Perfect
+							Timing, and how
+							software engineers can use these findings to optimize their work day</li>
+						<li>Turns out when you do something is as important as what you’re doing</li>
+						<li>Timing is not an art, it’s actually a science</li>
+					</ul>
+				</aside>
+			</section>
+
+			<!-- Twitter -->
+			<section>
+				<h2>Twitter Sentiment Study</h1>
+					<img data-src="images/twitter-sentiment-study.png" alt="twitter-sentiment-study">
+					<aside class="notes">
+						<ul>
+							<li>2 Cornell University sociologists, Michael Macy and Scott Golder analyzed over 500M tweets from 2.4M
+								users in 84
+								countries over two years. (Sep. 2011
+								https://www.aaas.org/news/science-tweets-reveal-role-circadian-rhythms-mood)</li>
+							<li>Fed tweets into LIWX (Linguistic Inquiry and Word Count) to analyze emotion</li>
+							<li>Found positive affect (language expressing feelings of being active, engaged, hopeful) generally rose
+								in
+								the morning,
+								plummeted in the afternoon, and climbed back up again in the early evening</li>
+							<li>Found the same temporal affective patterns regardless of geographic region, ethnicity, religion or
+								race
+							</li>
+							<li>Daily pattern looks like: A peak, A trough, and A rebound</li>
+						</ul>
+					</aside>
+			</section>
+
+			<!-- Twitter Skeptic -->
+			<section>
+				<h2>Skeptic Says</h2>
+				<img data-src="images/skeptic-crop.png" alt="skeptic crop">
+				<ul>
+					<li>Results might not be that accurate due to twitter character limit</li>
+					<li>People are not their most authentic selves on social media 😮</li>
+				</ul>
+			</section>
+
+			<!-- DRM -->
+			<section>
+				<h2>Day Reconstruction Method</h2>
+				<div class="r-stack">
+					<img class="fragment fade-out" data-fragment-index="0" src="images/happy.png">
+					<img class="fragment current-visible" data-fragment-index="0" src="images/warm.png">
+					<img class="fragment" src="images/emotional-balance.png">
+				</div>
+				<aside class="notes">
+					<ul>
+						<li>2006 study by behavioral scientists asked over 900 American women (mix of races, ages, household
+							incomes
+							and education levels) to characterize their emotions at frequent intervals throughout the day: happy,
+							frustrated, enjoying myself, annoyed etc.</li>
+						<li>Researches found consistent and strong bimodal pattern: Positive affect climbed in the morning hours,,
+							reaching optimal emotional point around midday, then good mood plummeted and stayed low throughout
+							afternoon,
+							and rises again in the early evening.</li>
+						<li>Researchers also found negative affect (feeling frustrated, worried, hassled) showed a reverse pattern -
+							rising in the
+							afternoon and sinking as the day drew to a close. Combining positive and negative to chart net good mood
+							(hourly ratings
+							for happiness and subtract ratings for frustration) - pattern is: Peak, Trough, Rebound</li>
+					</ul>
+				</aside>
+			</section>
+
+			<!-- DRM Skeptic -->
+			<section>
+				<h2>Skeptic Says</h2>
+				<img data-src="images/skeptic-crop.png" alt="skeptic crop">
+				<ul>
+					<li>So what? Sometimes people are in a good mood, sometimes bad, whatever, can’t always be happy.</li>
+					<li>Mood is an internal state, surely that couldn’t have external consequences… could it?</li>
+				</ul>
+			</section>
+
+			<!-- Stock -->
+			<section>
+				<h2>From Mood Swings to Stock Swings</h2>
+				<img data-src="images/stock-mood.png" alt="stock-mood">
+				<aside class="notes">
+					<ul>
+						<li>In a 2013 study, 3 American business school professors analyzed more than 26,000 earnings calls from
+							over 2,100 public
+							companies over 6 and a half years using linguistic algorithms similar to those used in the Twitter study
+						</li>
+						<li>They examined whether the time of day influenced the emotional tenor of these critical
+							conversations and, as a
+							consequence, perhaps even the price of the company’s stock.</li>
+						<li>Calls held first thing in the morning turned out to be reasonably upbeat and positive.</li>
+						<li>As the day progressed, the “tone grew more negative and less resolute.”</li>
+						<li>In the afternoon, negativity deepened, with mood recovering only after the market’s closing bell.</li>
+						<li>Amazingly, his pattern held “even after controlling for factors such as industry norms, financial
+							distress, growth opportunities, and the news that companies were reporting.”. Generally: afternoon calls
+							“were more negative, irritable, and combative” than morning calls.</li>
+						<li>time of the call and the subsequent mood it engendered influenced companies’ stock prices. Shares
+							declined
+							in response to negative tone—again, even after adjusting for actual good news or bad news—“leading to
+							temporary stock mispricing for firms hosting earnings calls later in the day.” (share prices eventually
+							righted themselves)</li>
+						<li>Results show economic rationality is no match for a biological clock forged during a few million years
+							of evolution. Even “sophisticated economic agents acting in real and highly incentivized settings are
+							influenced by diurnal rhythms in the performance of their professional duties.”</li>
+					</ul>
+				</aside>
+			</section>
+
+			<!-- Stock Skeptic -->
+			<section>
+				<h2>Skeptic Says</h2>
+				<img data-src="images/skeptic-crop.png" alt="skeptic crop">
+				<ul>
+					<li>Ok, so maybe moods affect outcomes in high stakes situations...</li>
+					<li>But I'm not CEO of a Fortune 500 company, how does this affect "regular" people?</li>
+				</ul>
+			</section>
+
+			<!-- Linda -->
+			<section data-state="read-text">
+				<h2>The Linda Problem</h2>
+				<p class="read-left">
+					Linda is thirty-one years old, single, outspoken, and very bright. In college, Linda majored in philosophy. As
+					a student, she was deeply concerned with issues of discrimination and social justice, and participated in
+					antinuclear demonstrations.
+					Which is more likely?
+				</p>
+				<ul class="list-plain">
+					<li>
+						<span class="fragment highlight-red">
+							a. Linda is a bank teller.
+						</span>
+					</li>
+					<li>b. Linda is a bank teller and is active in the feminist movement.</li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li>Intuition would suggest (b) is the answer, concern for social justice and anti-nuke demonstrations would
+							suggest an
+							activist.</li>
+						<li>BUT correct answer is (a): This is not an opinion question, it’s entirely a matter of logic (remember,
+							question asked
+							which is more LIKELY): Bank tellers who are also feminists—just like bank tellers who yodel or despise
+							cilantro—are a
+							subset of all bank tellers, and subsets can never be larger than the full set they’re a part of.</li>
+						<li>In 1983, two researchers from Stanford and UBC posed Linda problem to study participants at different
+							times of day (9am
+							and 8pm) to illustrate “conjunction fallacy” - one of the ways in which our reasoning goes awry.</li>
+						<li>People were much more likely to answer correctly earlier in the day than later.</li>
+					</ul>
+				</aside>
+			</section>
+
+			<!-- Vigilance -->
+			<section>
+				<h2>Vigilance</h2>
+				<img data-src="images/vigilance.png" alt="">
+				<aside class="notes">
+					<ul>
+						<li>Our cognitive abilities do not remain static over the course of a day. During the sixteen or so hours
+							we’re awake, We
+							are smarter, faster, dimmer, slower, more creative, and less creative in some parts of the day than
+							others.</li>
+						<li>Linda problem is an analytic task - has a single correct answer that can be reached via logic</li>
+						<li>Adults tend to perform best on this sort of thinking during the mornings - when they are most VIGILANT
+						</li>
+						<li>With Linda Problem, politically tinged material about Linda’s college experiences is a distraction. It
+							has no
+							relevance in resolving the question itself. When our minds are in vigilant mode, we can disregard such
+							distractions.</li>
+						<li>But vigilance has limits, after several hours mental guards grow tired, - Then sloppy logic, irrelevant
+							information can “sneak in”</li>
+						<li>Alertness and energy levels tend to plummet during afternoons, with that comes a corresponding fall in
+							ability to
+							remain focused and analytic powers decline.</li>
+					</ul>
+				</aside>
+			</section>
+
+			<!-- Vigilance Skeptic -->
+			<section>
+				<h2>Skeptic Says</h2>
+				<img data-src="images/skeptic-crop.png" alt="skeptic crop">
+				<ul>
+					<li>Yeah yeah I get it, do important stuff in the morning</li>
+					<li>Not so fast!</li>
+					<li>Not all brainwork is the same</li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li>This is an “insight problem”</li>
+						<li>Unlike Linda problem, Reasoning in a methodical, algorithmic way won’t yield a correct answer.</li>
+						<li>Typically people start with a systematic approach, hit a wall, get frustrated, then eventually
+							experience a “flash of
+							illuminance” - an aha! moment that helps them see the facts in a fresh light</li>
+					</ul>
+				</aside>
+			</section>
+
+			<!-- Coin -->
+			<section data-state="read-text">
+				<h2>The Coin Problem</h2>
+				<p class="read-left">
+					Ernesto is a dealer in antique coins. One day someone brings him a beautiful bronze coin. The coin has an
+					emperor’s head
+					on one side and the date 544 BC stamped on the other. Ernesto examines the coin—but instead of buying it, he
+					calls the
+					police. Why?
+				</p>
+			</section>
+
+			<section data-state="image-adjust">
+				<section>
+					<img width="300" class="nudge" data-src="images/gold-coin-crop.png">
+					<img width="400" data-src="images/christ.png">
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src=" dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			controls: true,
+			controlsTutorial: false,
+			controlsLayout: 'bottom-right',
+			controlsBackArrows: 'faded',
+			hash: true,
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			progress: true,
+			respondToHashChanges: true,
+			history: true,
+			keyboard: true,
+			transition: 'convex',
+			transitionSpeed: 'slow'
+		});
+	</script>
+</body>
+
+</html>
