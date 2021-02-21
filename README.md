@@ -1,3 +1,9 @@
+# When: A Presentation
+
+A presentation of some findings from the book [When: The Scientific Secrets of Perfect Timing](https://www.danpink.com/books/when/) and how software engineers can use these findings to optimize their work day.
+
+## RevealJS Framework
+
 <p align="center">
   <a href="https://revealjs.com">
   <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
