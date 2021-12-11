@@ -10,6 +10,27 @@
   margin-right: 50px;
 }
 
+.summary .sub {
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.summary .image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.summary img {
+  // undoing reveal.js 95% to make image caption align perfectly with image
+  max-width: 100%;
+}
+
+.summary .caption {
+  margin: 0;
+  text-align: left;
+  font-size: 0.8em;
+}
+
 .tags .tag {
   border: 1px solid transparent;
   border-radius: 3px;
@@ -29,4 +50,8 @@
 
 .tags .mundane {
   background: #59b377;
+}
+
+.ref .ref-list {
+  list-style: none;
 }
